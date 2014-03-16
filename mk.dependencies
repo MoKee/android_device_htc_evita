@@ -10,5 +10,5 @@
   {
     "repository": "android_vendor_htc_s4-common",
     "target_path": "vendor/htc/s4-common"
-  },
+  }
 ]
