@@ -5,15 +5,15 @@ PRODUCT_RELEASE_NAME := evita
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/evita/device_evita.mk)
 
 # Device naming
 PRODUCT_DEVICE := evita
-PRODUCT_NAME := cm_evita
+PRODUCT_NAME := mk_evita
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := One X
 PRODUCT_MANUFACTURER := HTC
